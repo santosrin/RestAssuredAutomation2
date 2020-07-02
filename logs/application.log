@@ -1,0 +1,507 @@
+[INFO ] 2020-07-02 20:44:48.788 [main] RestClient - URI is : https://reqres.in/api/users
+[INFO ] 2020-07-02 20:44:55.700 [main] RestClient - Response to Get Call is : {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+[INFO ] 2020-07-02 20:44:55.801 [main] APIHelper - Response of GET call: {
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"
+        },
+        {
+            "id": 8,
+            "email": "lindsay.ferguson@reqres.in",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"
+        },
+        {
+            "id": 9,
+            "email": "tobias.funke@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Funke",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"
+        },
+        {
+            "id": 10,
+            "email": "byron.fields@reqres.in",
+            "first_name": "Byron",
+            "last_name": "Fields",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"
+        },
+        {
+            "id": 11,
+            "email": "george.edwards@reqres.in",
+            "first_name": "George",
+            "last_name": "Edwards",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"
+        },
+        {
+            "id": 12,
+            "email": "rachel.howell@reqres.in",
+            "first_name": "Rachel",
+            "last_name": "Howell",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg"
+        }
+    ],
+    "ad": {
+        "company": "StatusCode Weekly",
+        "url": "http://statuscode.org/",
+        "text": "A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."
+    }
+}
+[INFO ] 2020-07-02 20:44:57.326 [main] APIAssertions - GET call assertion completed successfully
+[INFO ] 2020-07-02 20:44:58.169 [main] RestClient - URI is : https://reqres.in/api/users
+[INFO ] 2020-07-02 20:44:59.223 [main] RestClient - Response to Get Call is : {"name":"SanMan","job":"QA","id":"94","createdAt":"2020-07-02T15:14:58.880Z"}
+[INFO ] 2020-07-02 20:44:59.225 [main] APIHelper - Response of POST call: {
+    "name": "SanMan",
+    "job": "QA",
+    "id": "94",
+    "createdAt": "2020-07-02T15:14:58.880Z"
+}
+[INFO ] 2020-07-02 20:44:59.302 [main] APIAssertions - POST call assertion completed successfully
+[INFO ] 2020-07-02 20:44:59.305 [main] RestClient - URI is : https://reqres.in/api/users/2
+[INFO ] 2020-07-02 20:45:00.039 [main] RestClient - Response to Get Call is : {
+    "name": "morpheus",
+    "job": "zion resident",
+    "updatedAt": "2020-07-02T15:14:59.912Z"
+}
+[INFO ] 2020-07-02 20:45:00.086 [main] APIAssertions - PUT call assertion completed successfully
+[INFO ] 2020-07-02 20:45:00.088 [main] RestClient - URI is : https://reqres.in/api/users/2
+[INFO ] 2020-07-02 20:45:00.857 [main] RestClient - Response to Get Call is : 
+[INFO ] 2020-07-02 20:45:00.857 [main] APIHelper - DELETE call assertion completed successfully
+[INFO ] 2020-07-02 20:45:00.862 [main] RestClient - URI is : https://ws-st01.narvar.qa/api/v1/orders/10001112
+[INFO ] 2020-07-02 20:45:02.630 [main] RestClient - Response to Get Call is : {
+    "order_info": {
+        "order_number": "10001112",
+        "order_date": "2019-12-05T20:21:37Z",
+        "order_items": [
+            {
+                "item_id": "181",
+                "retailer": null,
+                "sku": "32861",
+                "customer_comment": null,
+                "name": "Erika Running Short-32-Purple",
+                "description": "A great short with a body-hugging design, the Erika Running Short is perfect for runners who prefer a fitted short rather than the traditional baggy variety. • Seafoam pattern running shorts. • Elastic waistband. • Snug fit. • 4'' inseam. • 76% premium brushed Nylon / 24% Spandex.",
+                "quantity": 3,
+                "unit_price": 36.0,
+                "discount_amount": 9.0,
+                "discount_percent": 20.0,
+                "categories": null,
+                "item_image": "https://returns.narvar.com/r2/img/blindItemImage.svg",
+                "item_url": null,
+                "is_final_sale": false,
+                "is_active": null,
+                "fulfillment_status": "SHIPPED",
+                "fulfillment_type": null,
+                "is_gift": false,
+                "final_sale_date": null,
+                "product_type": "simple",
+                "product_id": "2043",
+                "line_number": "1",
+                "attributes": {
+                    "color": "Green",
+                    "size": "XL"
+                },
+                "dimensions": {
+                    "uom": "in",
+                    "weight": 1.0,
+                    "weight_uom": "lbs"
+                },
+                "is_backordered": false,
+                "vendor": null,
+                "item_promise_date": null,
+                "return_reason_code": null,
+                "events": null,
+                "vendors": null,
+                "color": "Green",
+                "size": "XL",
+                "style": null,
+                "line_price": 108.0,
+                "original_unit_price": 45.0,
+                "original_line_price": 135.0
+            },
+            {
+                "item_id": "182",
+                "retailer": null,
+                "sku": "32862",
+                "customer_comment": null,
+                "name": "Erika Running Short-32-Red",
+                "description": "A great short with a body-hugging design, the Erika Running Short is perfect for runners who prefer a fitted short rather than the traditional baggy variety. • Seafoam pattern running shorts. • Elastic waistband. • Snug fit. • 4'' inseam. • 76% premium brushed Nylon / 24% Spandex.",
+                "quantity": 5,
+                "unit_price": 36.0,
+                "discount_amount": 9.0,
+                "discount_percent": 20.0,
+                "categories": null,
+                "item_image": "https://returns.narvar.com/r2/img/blindItemImage.svg",
+                "item_url": null,
+                "is_final_sale": false,
+                "is_active": null,
+                "fulfillment_status": "PARTIAL",
+                "fulfillment_type": null,
+                "is_gift": false,
+                "final_sale_date": null,
+                "product_type": "simple",
+                "product_id": "2044",
+                "line_number": "2",
+                "attributes": {
+                    "color": "Green",
+                    "size": "XL"
+                },
+                "dimensions": {
+                    "uom": "in",
+                    "weight": 1.0,
+                    "weight_uom": "lbs"
+                },
+                "is_backordered": false,
+                "vendor": null,
+                "item_promise_date": null,
+                "return_reason_code": null,
+                "events": null,
+                "vendors": null,
+                "color": "Green",
+                "size": "XL",
+                "style": null,
+                "line_price": 180.0,
+                "original_unit_price": 45.0,
+                "original_line_price": 225.0
+            }
+        ],
+        "shipments": [
+            {
+                "ship_method": "Best Way - Table Rate",
+                "carrier_service": "Fedex 24",
+                "items_info": [
+                    {
+                        "quantity": 3,
+                        "sku": "32861",
+                        "item_id": "181"
+                    },
+                    {
+                        "quantity": 5,
+                        "sku": "32862",
+                        "item_id": "182"
+                    }
+                ],
+                "carrier": "fedex",
+                "shipped_to": {
+                    "first_name": "Veronica",
+                    "last_name": "Costello",
+                    "phone": "(555) 229-3326",
+                    "email": "roni_cost@example.com",
+                    "fax": "",
+                    "address": {
+                        "street_1": "6146 Honey, Bluff",
+                        "street_2": "Parkway",
+                        "city": "Calder",
+                        "state": "Michigan",
+                        "zip": "49628-7978",
+                        "country": "US"
+                    }
+                },
+                "shipped_from": {
+                    "first_name": "Kunal",
+                    "last_name": "",
+                    "phone": "09999999999",
+                    "email": "arnejakunal96@gmail.com",
+                    "fax": "",
+                    "address": {
+                        "street_1": "1A-002, Akme Harmony Apartments, Outer Ring Road,",
+                        "street_2": "",
+                        "city": "Bangalore",
+                        "zip": "560103",
+                        "country": "IN"
+                    }
+                },
+                "ship_discount": 0.0,
+                "ship_total": 0.0,
+                "ship_tax": 0.0,
+                "ship_date": "2019-12-05T20:26:42Z",
+                "tracking_number": "565",
+                "attributes": {
+                    
+                }
+            }
+        ],
+        "pickups": [
+            
+        ],
+        "billing": {
+            "billed_to": {
+                "first_name": "Veronica",
+                "last_name": "Costello",
+                "phone": "(555) 229-3326",
+                "email": "roni_cost@example.com",
+                "fax": "",
+                "address": {
+                    "street_1": "6146 Honey",
+                    "street_2": "Bluff, Parkway",
+                    "city": "Calder",
+                    "state": "Michigan",
+                    "zip": "49628-7978",
+                    "country": "US"
+                }
+            },
+            "amount": 311.76,
+            "tax_rate": 23.76,
+            "tax_amount": 23.76,
+            "shipping_handling": 0.0
+        },
+        "customer": {
+            "first_name": "Veronica",
+            "last_name": "Costello",
+            "phone": "(555) 229-3326",
+            "email": "roni_cost@example.com",
+            "fax": "",
+            "address": {
+                "street_1": "6146 Honey",
+                "street_2": "Bluff, Parkway",
+                "city": "Calder",
+                "state": "Michigan",
+                "zip": "49628-7978",
+                "country": "US"
+            },
+            "customer_id": "1"
+        },
+        "currency_code": "NZD",
+        "attributes": {
+            "checkout_brand": "magentotestauto",
+            "checkout_country": "US"
+        },
+        "promotions": [
+            {
+                "promotion": "coupon_code",
+                "value": "NEWYEARSALE"
+            }
+        ]
+    },
+    "status": "SUCCESS",
+    "messages": [
+        {
+            "code": "response.status.success"
+        }
+    ]
+}
+[INFO ] 2020-07-02 20:45:02.744 [main] APIAssertions - Assertions is complete
+[INFO ] 2020-07-02 20:45:02.750 [main] APIHelper - Url is :https://autdemo.myshopify.com/admin/api/2019-04/products.json
+[INFO ] 2020-07-02 20:45:02.758 [main] RestClient - URI is : https://autdemo.myshopify.com/admin/api/2019-04/products.json
+[INFO ] 2020-07-02 20:45:06.349 [main] RestClient - Response to Get Call is : {"product":{"id":5081522962563,"title":"LocationCheck2","body_html":"LocationCheck2","vendor":"Varnar","product_type":"Sasmung","created_at":"2020-07-02T11:15:05-04:00","handle":"locationcheck2-77","updated_at":"2020-07-02T11:15:05-04:00","published_at":"2020-07-02T11:15:05-04:00","template_suffix":null,"published_scope":"web","tags":"JustArrived","admin_graphql_api_id":"gid:\/\/shopify\/Product\/5081522962563","variants":[{"id":33994014392451,"product_id":5081522962563,"title":"Default Title","price":"0.00","sku":"","position":1,"inventory_policy":"deny","compare_at_price":null,"fulfillment_service":"manual","inventory_management":null,"option1":"Default Title","option2":null,"option3":null,"created_at":"2020-07-02T11:15:05-04:00","updated_at":"2020-07-02T11:15:05-04:00","taxable":true,"barcode":null,"grams":0,"image_id":null,"weight":0.0,"weight_unit":"kg","inventory_item_id":35575787880579,"inventory_quantity":0,"old_inventory_quantity":0,"requires_shipping":true,"admin_graphql_api_id":"gid:\/\/shopify\/ProductVariant\/33994014392451"}],"options":[{"id":6508448284803,"product_id":5081522962563,"name":"Title","position":1,"values":["Default Title"]}],"images":[{"id":16196267835523,"product_id":5081522962563,"position":1,"created_at":"2020-07-02T11:15:05-04:00","updated_at":"2020-07-02T11:15:05-04:00","alt":null,"width":1920,"height":1200,"src":"https:\/\/cdn.shopify.com\/s\/files\/1\/0331\/8376\/0515\/products\/Beautiful-Wallpaper-5_34fe0e6c-0d08-4b0b-8644-3c4e68bfe396.jpg?v=1593702905","variant_ids":[],"admin_graphql_api_id":"gid:\/\/shopify\/ProductImage\/16196267835523"},{"id":16196267868291,"product_id":5081522962563,"position":2,"created_at":"2020-07-02T11:15:05-04:00","updated_at":"2020-07-02T11:15:05-04:00","alt":null,"width":1920,"height":1200,"src":"https:\/\/cdn.shopify.com\/s\/files\/1\/0331\/8376\/0515\/products\/Beautiful-Wallpaper-4_cfe5d7f9-b465-439c-9ec6-9d29d0d6df1d.jpg?v=1593702905","variant_ids":[],"admin_graphql_api_id":"gid:\/\/shopify\/ProductImage\/16196267868291"}],"image":{"id":16196267835523,"product_id":5081522962563,"position":1,"created_at":"2020-07-02T11:15:05-04:00","updated_at":"2020-07-02T11:15:05-04:00","alt":null,"width":1920,"height":1200,"src":"https:\/\/cdn.shopify.com\/s\/files\/1\/0331\/8376\/0515\/products\/Beautiful-Wallpaper-5_34fe0e6c-0d08-4b0b-8644-3c4e68bfe396.jpg?v=1593702905","variant_ids":[],"admin_graphql_api_id":"gid:\/\/shopify\/ProductImage\/16196267835523"}}}
+[INFO ] 2020-07-02 20:45:06.355 [main] APIHelper - Response of POST call: {
+    "product": {
+        "id": 5081522962563,
+        "title": "LocationCheck2",
+        "body_html": "LocationCheck2",
+        "vendor": "Varnar",
+        "product_type": "Sasmung",
+        "created_at": "2020-07-02T11:15:05-04:00",
+        "handle": "locationcheck2-77",
+        "updated_at": "2020-07-02T11:15:05-04:00",
+        "published_at": "2020-07-02T11:15:05-04:00",
+        "template_suffix": null,
+        "published_scope": "web",
+        "tags": "JustArrived",
+        "admin_graphql_api_id": "gid://shopify/Product/5081522962563",
+        "variants": [
+            {
+                "id": 33994014392451,
+                "product_id": 5081522962563,
+                "title": "Default Title",
+                "price": "0.00",
+                "sku": "",
+                "position": 1,
+                "inventory_policy": "deny",
+                "compare_at_price": null,
+                "fulfillment_service": "manual",
+                "inventory_management": null,
+                "option1": "Default Title",
+                "option2": null,
+                "option3": null,
+                "created_at": "2020-07-02T11:15:05-04:00",
+                "updated_at": "2020-07-02T11:15:05-04:00",
+                "taxable": true,
+                "barcode": null,
+                "grams": 0,
+                "image_id": null,
+                "weight": 0.0,
+                "weight_unit": "kg",
+                "inventory_item_id": 35575787880579,
+                "inventory_quantity": 0,
+                "old_inventory_quantity": 0,
+                "requires_shipping": true,
+                "admin_graphql_api_id": "gid://shopify/ProductVariant/33994014392451"
+            }
+        ],
+        "options": [
+            {
+                "id": 6508448284803,
+                "product_id": 5081522962563,
+                "name": "Title",
+                "position": 1,
+                "values": [
+                    "Default Title"
+                ]
+            }
+        ],
+        "images": [
+            {
+                "id": 16196267835523,
+                "product_id": 5081522962563,
+                "position": 1,
+                "created_at": "2020-07-02T11:15:05-04:00",
+                "updated_at": "2020-07-02T11:15:05-04:00",
+                "alt": null,
+                "width": 1920,
+                "height": 1200,
+                "src": "https://cdn.shopify.com/s/files/1/0331/8376/0515/products/Beautiful-Wallpaper-5_34fe0e6c-0d08-4b0b-8644-3c4e68bfe396.jpg?v=1593702905",
+                "variant_ids": [
+                    
+                ],
+                "admin_graphql_api_id": "gid://shopify/ProductImage/16196267835523"
+            },
+            {
+                "id": 16196267868291,
+                "product_id": 5081522962563,
+                "position": 2,
+                "created_at": "2020-07-02T11:15:05-04:00",
+                "updated_at": "2020-07-02T11:15:05-04:00",
+                "alt": null,
+                "width": 1920,
+                "height": 1200,
+                "src": "https://cdn.shopify.com/s/files/1/0331/8376/0515/products/Beautiful-Wallpaper-4_cfe5d7f9-b465-439c-9ec6-9d29d0d6df1d.jpg?v=1593702905",
+                "variant_ids": [
+                    
+                ],
+                "admin_graphql_api_id": "gid://shopify/ProductImage/16196267868291"
+            }
+        ],
+        "image": {
+            "id": 16196267835523,
+            "product_id": 5081522962563,
+            "position": 1,
+            "created_at": "2020-07-02T11:15:05-04:00",
+            "updated_at": "2020-07-02T11:15:05-04:00",
+            "alt": null,
+            "width": 1920,
+            "height": 1200,
+            "src": "https://cdn.shopify.com/s/files/1/0331/8376/0515/products/Beautiful-Wallpaper-5_34fe0e6c-0d08-4b0b-8644-3c4e68bfe396.jpg?v=1593702905",
+            "variant_ids": [
+                
+            ],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/16196267835523"
+        }
+    }
+}
+[INFO ] 2020-07-02 20:45:06.398 [main] APIHelper - prodId : 5081522962563
+[INFO ] 2020-07-02 20:45:06.398 [main] APIHelper - Url is :https://autdemo.myshopify.com/admin/api/2019-04/products/5081522962563.json
+[INFO ] 2020-07-02 20:45:06.399 [main] RestClient - URI is : https://autdemo.myshopify.com/admin/api/2019-04/products/5081522962563.json
+[INFO ] 2020-07-02 20:45:07.509 [main] RestClient - Response to Get Call is : {"product":{"id":5081522962563,"title":"LocationCheck2","body_html":"LocationCheck2","vendor":"Varnar","product_type":"Sasmung","created_at":"2020-07-02T11:15:05-04:00","handle":"locationcheck2-77","updated_at":"2020-07-02T11:15:05-04:00","published_at":"2020-07-02T11:15:05-04:00","template_suffix":null,"published_scope":"web","tags":"JustArrived","admin_graphql_api_id":"gid:\/\/shopify\/Product\/5081522962563","variants":[{"id":33994014392451,"product_id":5081522962563,"title":"Default Title","price":"0.00","sku":"","position":1,"inventory_policy":"deny","compare_at_price":null,"fulfillment_service":"manual","inventory_management":null,"option1":"Default Title","option2":null,"option3":null,"created_at":"2020-07-02T11:15:05-04:00","updated_at":"2020-07-02T11:15:05-04:00","taxable":true,"barcode":null,"grams":0,"image_id":null,"weight":0.0,"weight_unit":"kg","inventory_item_id":35575787880579,"inventory_quantity":0,"old_inventory_quantity":0,"requires_shipping":true,"admin_graphql_api_id":"gid:\/\/shopify\/ProductVariant\/33994014392451"}],"options":[{"id":6508448284803,"product_id":5081522962563,"name":"Title","position":1,"values":["Default Title"]}],"images":[{"id":16196267835523,"product_id":5081522962563,"position":1,"created_at":"2020-07-02T11:15:05-04:00","updated_at":"2020-07-02T11:15:05-04:00","alt":null,"width":1920,"height":1200,"src":"https:\/\/cdn.shopify.com\/s\/files\/1\/0331\/8376\/0515\/products\/Beautiful-Wallpaper-5_34fe0e6c-0d08-4b0b-8644-3c4e68bfe396.jpg?v=1593702905","variant_ids":[],"admin_graphql_api_id":"gid:\/\/shopify\/ProductImage\/16196267835523"},{"id":16196267868291,"product_id":5081522962563,"position":2,"created_at":"2020-07-02T11:15:05-04:00","updated_at":"2020-07-02T11:15:05-04:00","alt":null,"width":1920,"height":1200,"src":"https:\/\/cdn.shopify.com\/s\/files\/1\/0331\/8376\/0515\/products\/Beautiful-Wallpaper-4_cfe5d7f9-b465-439c-9ec6-9d29d0d6df1d.jpg?v=1593702905","variant_ids":[],"admin_graphql_api_id":"gid:\/\/shopify\/ProductImage\/16196267868291"}],"image":{"id":16196267835523,"product_id":5081522962563,"position":1,"created_at":"2020-07-02T11:15:05-04:00","updated_at":"2020-07-02T11:15:05-04:00","alt":null,"width":1920,"height":1200,"src":"https:\/\/cdn.shopify.com\/s\/files\/1\/0331\/8376\/0515\/products\/Beautiful-Wallpaper-5_34fe0e6c-0d08-4b0b-8644-3c4e68bfe396.jpg?v=1593702905","variant_ids":[],"admin_graphql_api_id":"gid:\/\/shopify\/ProductImage\/16196267835523"}}}
+[INFO ] 2020-07-02 20:45:07.512 [main] APIHelper - Response of GET call: {
+    "product": {
+        "id": 5081522962563,
+        "title": "LocationCheck2",
+        "body_html": "LocationCheck2",
+        "vendor": "Varnar",
+        "product_type": "Sasmung",
+        "created_at": "2020-07-02T11:15:05-04:00",
+        "handle": "locationcheck2-77",
+        "updated_at": "2020-07-02T11:15:05-04:00",
+        "published_at": "2020-07-02T11:15:05-04:00",
+        "template_suffix": null,
+        "published_scope": "web",
+        "tags": "JustArrived",
+        "admin_graphql_api_id": "gid://shopify/Product/5081522962563",
+        "variants": [
+            {
+                "id": 33994014392451,
+                "product_id": 5081522962563,
+                "title": "Default Title",
+                "price": "0.00",
+                "sku": "",
+                "position": 1,
+                "inventory_policy": "deny",
+                "compare_at_price": null,
+                "fulfillment_service": "manual",
+                "inventory_management": null,
+                "option1": "Default Title",
+                "option2": null,
+                "option3": null,
+                "created_at": "2020-07-02T11:15:05-04:00",
+                "updated_at": "2020-07-02T11:15:05-04:00",
+                "taxable": true,
+                "barcode": null,
+                "grams": 0,
+                "image_id": null,
+                "weight": 0.0,
+                "weight_unit": "kg",
+                "inventory_item_id": 35575787880579,
+                "inventory_quantity": 0,
+                "old_inventory_quantity": 0,
+                "requires_shipping": true,
+                "admin_graphql_api_id": "gid://shopify/ProductVariant/33994014392451"
+            }
+        ],
+        "options": [
+            {
+                "id": 6508448284803,
+                "product_id": 5081522962563,
+                "name": "Title",
+                "position": 1,
+                "values": [
+                    "Default Title"
+                ]
+            }
+        ],
+        "images": [
+            {
+                "id": 16196267835523,
+                "product_id": 5081522962563,
+                "position": 1,
+                "created_at": "2020-07-02T11:15:05-04:00",
+                "updated_at": "2020-07-02T11:15:05-04:00",
+                "alt": null,
+                "width": 1920,
+                "height": 1200,
+                "src": "https://cdn.shopify.com/s/files/1/0331/8376/0515/products/Beautiful-Wallpaper-5_34fe0e6c-0d08-4b0b-8644-3c4e68bfe396.jpg?v=1593702905",
+                "variant_ids": [
+                    
+                ],
+                "admin_graphql_api_id": "gid://shopify/ProductImage/16196267835523"
+            },
+            {
+                "id": 16196267868291,
+                "product_id": 5081522962563,
+                "position": 2,
+                "created_at": "2020-07-02T11:15:05-04:00",
+                "updated_at": "2020-07-02T11:15:05-04:00",
+                "alt": null,
+                "width": 1920,
+                "height": 1200,
+                "src": "https://cdn.shopify.com/s/files/1/0331/8376/0515/products/Beautiful-Wallpaper-4_cfe5d7f9-b465-439c-9ec6-9d29d0d6df1d.jpg?v=1593702905",
+                "variant_ids": [
+                    
+                ],
+                "admin_graphql_api_id": "gid://shopify/ProductImage/16196267868291"
+            }
+        ],
+        "image": {
+            "id": 16196267835523,
+            "product_id": 5081522962563,
+            "position": 1,
+            "created_at": "2020-07-02T11:15:05-04:00",
+            "updated_at": "2020-07-02T11:15:05-04:00",
+            "alt": null,
+            "width": 1920,
+            "height": 1200,
+            "src": "https://cdn.shopify.com/s/files/1/0331/8376/0515/products/Beautiful-Wallpaper-5_34fe0e6c-0d08-4b0b-8644-3c4e68bfe396.jpg?v=1593702905",
+            "variant_ids": [
+                
+            ],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/16196267835523"
+        }
+    }
+}
