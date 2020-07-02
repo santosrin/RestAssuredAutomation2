@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">6 methods,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -122,6 +122,11 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.qa.testcases.PostAndGetShopifyAPI" hash-for-method="shopifyPostGetCallAPI">shopifyPostGetCallAPI</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.qa.testcases.GetBigAPITest" hash-for-method="validateBigGetAPI">validateBigGetAPI</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -137,6 +142,21 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-All_Test_Suite" class="panel All_Test_Suite">
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.testcases.PostAndGetShopifyAPI</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shopifyPostGetCallAPI">
+                  </a> <!-- shopifyPostGetCallAPI -->
+                  <span class="method-name">shopifyPostGetCallAPI</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
           <div class="suite-All_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -233,6 +253,7 @@
       &lt;class name=&quot;com.qa.testcases.PutAPITest&quot;/&gt;
       &lt;class name=&quot;com.qa.testcases.DeleteAPITest&quot;/&gt;
       &lt;class name=&quot;com.qa.testcases.GetBigAPITest&quot;/&gt;
+      &lt;class name=&quot;com.qa.testcases.PostAndGetShopifyAPI&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- API Automation --&gt;
 &lt;/suite&gt; &lt;!-- All Test Suite --&gt;
@@ -246,7 +267,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">API Automation (5 classes)</span>
+                <span class="test-name">API Automation (6 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -272,32 +293,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'getCallAPI')
 data.setCell(0, 2, 'com.qa.testcases.GetAPITest')
-data.setCell(0, 3, 3715);
+data.setCell(0, 3, 20053);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'validateBigGetAPI')
-data.setCell(1, 2, 'com.qa.testcases.GetBigAPITest')
-data.setCell(1, 3, 1533);
+data.setCell(1, 1, 'shopifyPostGetCallAPI')
+data.setCell(1, 2, 'com.qa.testcases.PostAndGetShopifyAPI')
+data.setCell(1, 3, 4766);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'postCallAPI')
 data.setCell(2, 2, 'com.qa.testcases.PostAPITest')
-data.setCell(2, 3, 1385);
+data.setCell(2, 3, 1957);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'putCallAPI')
-data.setCell(3, 2, 'com.qa.testcases.PutAPITest')
-data.setCell(3, 3, 753);
+data.setCell(3, 1, 'validateBigGetAPI')
+data.setCell(3, 2, 'com.qa.testcases.GetBigAPITest')
+data.setCell(3, 3, 1886);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'deleteCallAPI')
-data.setCell(4, 2, 'com.qa.testcases.DeleteAPITest')
-data.setCell(4, 3, 719);
+data.setCell(4, 1, 'putCallAPI')
+data.setCell(4, 2, 'com.qa.testcases.PutAPITest')
+data.setCell(4, 3, 782);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'deleteCallAPI')
+data.setCell(5, 2, 'com.qa.testcases.DeleteAPITest')
+data.setCell(5, 3, 771);
 window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <span class="suite-total-time">Total running time: 30 seconds</span>
               <div id="times-div-All_Test_Suite">
               </div> <!-- times-div-All_Test_Suite -->
             </div> <!-- times-div -->
@@ -333,28 +358,35 @@ return data;
               <div class="chronological-class-name">com.qa.testcases.PostAPITest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">postCallAPI</span>
-                <span class="method-start">3727 ms</span>
+                <span class="method-start">20072 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.testcases.PutAPITest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">putCallAPI</span>
-                <span class="method-start">5113 ms</span>
+                <span class="method-start">22030 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.testcases.DeleteAPITest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">deleteCallAPI</span>
-                <span class="method-start">5868 ms</span>
+                <span class="method-start">22813 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.testcases.GetBigAPITest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">validateBigGetAPI</span>
-                <span class="method-start">6588 ms</span>
+                <span class="method-start">23585 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.testcases.PostAndGetShopifyAPI</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">shopifyPostGetCallAPI</span>
+                <span class="method-start">25474 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

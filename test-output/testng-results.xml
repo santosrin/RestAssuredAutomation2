@@ -1,37 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="All Test Suite" duration-ms="8164" started-at="2020-07-02T19:59:41 IST" finished-at="2020-07-02T19:59:49 IST">
+  <suite name="All Test Suite" duration-ms="30481" started-at="2020-07-02T20:44:37 IST" finished-at="2020-07-02T20:45:07 IST">
     <groups>
     </groups>
-    <test name="API Automation" duration-ms="8164" started-at="2020-07-02T19:59:41 IST" finished-at="2020-07-02T19:59:49 IST">
+    <test name="API Automation" duration-ms="30481" started-at="2020-07-02T20:44:37 IST" finished-at="2020-07-02T20:45:07 IST">
       <class name="com.qa.testcases.PostAPITest">
-        <test-method status="PASS" signature="postCallAPI()[pri:0, instance:com.qa.testcases.PostAPITest@1573f9fc]" name="postCallAPI" duration-ms="1385" started-at="2020-07-02T19:59:45 IST" finished-at="2020-07-02T19:59:46 IST">
+        <test-method status="PASS" signature="postCallAPI()[pri:0, instance:com.qa.testcases.PostAPITest@6150c3ec]" name="postCallAPI" duration-ms="1957" started-at="2020-07-02T20:44:57 IST" finished-at="2020-07-02T20:44:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCallAPI -->
       </class> <!-- com.qa.testcases.PostAPITest -->
+      <class name="com.qa.testcases.PostAndGetShopifyAPI">
+        <test-method status="PASS" signature="shopifyPostGetCallAPI()[pri:0, instance:com.qa.testcases.PostAndGetShopifyAPI@6a78afa0]" name="shopifyPostGetCallAPI" duration-ms="4766" started-at="2020-07-02T20:45:02 IST" finished-at="2020-07-02T20:45:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shopifyPostGetCallAPI -->
+      </class> <!-- com.qa.testcases.PostAndGetShopifyAPI -->
       <class name="com.qa.testcases.GetBigAPITest">
-        <test-method status="PASS" signature="validateBigGetAPI()[pri:0, instance:com.qa.testcases.GetBigAPITest@7e6f74c]" name="validateBigGetAPI" duration-ms="1533" started-at="2020-07-02T19:59:48 IST" finished-at="2020-07-02T19:59:49 IST">
+        <test-method status="PASS" signature="validateBigGetAPI()[pri:0, instance:com.qa.testcases.GetBigAPITest@dd05255]" name="validateBigGetAPI" duration-ms="1886" started-at="2020-07-02T20:45:00 IST" finished-at="2020-07-02T20:45:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateBigGetAPI -->
       </class> <!-- com.qa.testcases.GetBigAPITest -->
       <class name="com.qa.testcases.GetAPITest">
-        <test-method status="PASS" signature="getCallAPI()[pri:0, instance:com.qa.testcases.GetAPITest@5542c4ed]" name="getCallAPI" duration-ms="3715" started-at="2020-07-02T19:59:41 IST" finished-at="2020-07-02T19:59:45 IST">
+        <test-method status="PASS" signature="getCallAPI()[pri:0, instance:com.qa.testcases.GetAPITest@1573f9fc]" name="getCallAPI" duration-ms="20053" started-at="2020-07-02T20:44:37 IST" finished-at="2020-07-02T20:44:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getCallAPI -->
       </class> <!-- com.qa.testcases.GetAPITest -->
       <class name="com.qa.testcases.DeleteAPITest">
-        <test-method status="PASS" signature="deleteCallAPI()[pri:0, instance:com.qa.testcases.DeleteAPITest@44c03695]" name="deleteCallAPI" duration-ms="719" started-at="2020-07-02T19:59:47 IST" finished-at="2020-07-02T19:59:48 IST">
+        <test-method status="PASS" signature="deleteCallAPI()[pri:0, instance:com.qa.testcases.DeleteAPITest@7e6f74c]" name="deleteCallAPI" duration-ms="771" started-at="2020-07-02T20:45:00 IST" finished-at="2020-07-02T20:45:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteCallAPI -->
       </class> <!-- com.qa.testcases.DeleteAPITest -->
       <class name="com.qa.testcases.PutAPITest">
-        <test-method status="PASS" signature="putCallAPI()[pri:0, instance:com.qa.testcases.PutAPITest@6150c3ec]" name="putCallAPI" duration-ms="753" started-at="2020-07-02T19:59:46 IST" finished-at="2020-07-02T19:59:47 IST">
+        <test-method status="PASS" signature="putCallAPI()[pri:0, instance:com.qa.testcases.PutAPITest@44c03695]" name="putCallAPI" duration-ms="782" started-at="2020-07-02T20:44:59 IST" finished-at="2020-07-02T20:45:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- putCallAPI -->
