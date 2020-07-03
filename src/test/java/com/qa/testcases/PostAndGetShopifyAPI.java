@@ -16,11 +16,7 @@ public class PostAndGetShopifyAPI {
 
     @Test
     public void shopifyPostGetCallAPI() {
-       // response = apiHelper.postShopifyCallAPI();
-//        Map<String,Object> product = response.jsonPath().getMap("product");
-//        prodId = product.get("id").toString();
         apiHelper.postShopifyCallAPI();
         apiHelper.getShopifyCallAPI();
-
     }
 }

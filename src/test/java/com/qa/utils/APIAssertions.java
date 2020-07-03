@@ -1,6 +1,5 @@
 package com.qa.utils;
 
-import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import io.restassured.response.Response;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

@@ -8,7 +8,6 @@ import com.aventstack.extentreports.reporter.configuration.ChartLocation;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 import org.testng.*;
 import org.testng.xml.XmlSuite;
-
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;

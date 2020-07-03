@@ -7,8 +7,6 @@ import io.restassured.response.Response;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
-
-import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -21,9 +19,6 @@ public class APIHelper extends TestBase {
     private ObjectMapper objectMapper;
     private PostApiPojo postApi;
     private static String prodId;
-
-//    public APIHelper() throws IOException {
-//    }
 
     public Response getCallAPI() {
 
@@ -108,7 +103,6 @@ public class APIHelper extends TestBase {
         Map<String,Object> product = response.jsonPath().getMap("product");
         prodId = product.get("id").toString();
         logger.info("prodId : "+ prodId);
-        //APIAssertions.assertPostCall(response);
         return response;
     }
 
@@ -118,13 +112,10 @@ public class APIHelper extends TestBase {
         client = new RestClient();
         HashMap<String,String> header = new HashMap<>();
         header.put("Content-Type","application/json");
-        //String body = Payloads.PostPayloadShopify();
         response = client.get(url,200,
                 prop.getProperty("shopifyUn"),prop.getProperty("shopifyPwd"),header);
         logger.info("Response of GET call: " + response.getBody().prettyPrint());
         Assert.assertEquals(response.statusCode(),200);
-        //APIAssertions.assertPostCall(response);
         return response;
     }
-
 }
